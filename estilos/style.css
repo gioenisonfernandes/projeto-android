@@ -34,10 +34,9 @@ body{
 
 header{
     background: linear-gradient(to bottom, var(--cor3), var(--cor6));
-    font-family: var(--fonte-padrao);
     text-align: center;
     padding-top: 30px;
-    margin: auto;
+    min-height: 150px;
 }
 
 header > h1{
