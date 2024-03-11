@@ -125,7 +125,7 @@ main > article > h2{
 main p{
     text-indent: 30px;
     text-align: justify;
-    font-size: 1em;
+    font-size: normal;
     margin: 15px 0px;
     line-height: 2em;
 }
