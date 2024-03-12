@@ -109,7 +109,7 @@ main > article {
     padding: 0px 20px;
 }
 
-main > article > h1{
+main h1{
     font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.8em;
@@ -118,7 +118,7 @@ main > article > h1{
     padding-top: 15px;
 }
 
-main > article > h2{
+main h2{
     font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.3em;
@@ -137,7 +137,7 @@ main > article > h2{
 main p{
     text-indent: 30px;
     text-align: justify;
-    font-size: normal;
+    font-size: 1em;
     margin: 15px 0px;
     line-height: 2em;
 }
@@ -178,6 +178,7 @@ aside{
     background-color: var(--cor1);
     border-radius: 10px 10px 10px 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.329);
+    padding: 10px;
 }
 
 aside > h3{
@@ -195,6 +196,7 @@ aside > p{
 
 aside ul{
     list-style-type: '\1F5F8\00A0\00A0'; 
+    list-style-position: inside;
     columns: 2;
 }
 
@@ -205,6 +207,7 @@ aside > p > a{
 
 footer{
     text-align: center;
+    font-size: 0.8em;
     background-color: var(--cor6);
     color: white;
 }
