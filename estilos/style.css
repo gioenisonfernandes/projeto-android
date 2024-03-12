@@ -33,7 +33,7 @@ a.externo::after{
 
 body{
     background-color: var(--cor1);
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:var(--fonte-padrao);
 }
 
 header{
@@ -59,6 +59,7 @@ header p{
     max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
+    padding-bottom: 50px;
     margin: auto;
     color: white ;
     
@@ -72,9 +73,8 @@ nav{
 
 }
 nav > a{
-    font-family: var(--fonte-padrao);
+   
     font-weight: bold;
-    font-size: 1.1em;
     border-radius: 5px;
     text-decoration: none;
     padding: 10px;
@@ -89,10 +89,12 @@ nav >a:hover{
 }
 
 main{
-    min-width: 320px;
+    min-width: 300px;
     max-width: 1000px;
     background-color: white;
     margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
     border-radius: 0px 0px 10px 10px;
     
 }
