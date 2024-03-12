@@ -90,7 +90,7 @@ nav >a:hover{
 }
 
 main{
-    min-width: 600px;
+    min-width: 300px;
     max-width: 1000px;
     background-color: white;
     margin: auto;
@@ -131,6 +131,7 @@ main > article > h2{
     text-align: center;
     display: block;
     margin: auto;
+    min-width: 320px;
 }
 
 main p{
