@@ -83,7 +83,6 @@ nav > a{
 nav >a:hover{
     background-color: var(--cor4);
     color: var(--cor6);
-    
 }
 
 main{
@@ -100,11 +99,7 @@ main > img{
     width: 100%;
 }
 
-main > article {
-    margin: auto;
-    border-radius: 10px 10px;
-    padding: 0px 20px;
-}
+
 
 main h1{
     font-family: var(--fonte-android);
