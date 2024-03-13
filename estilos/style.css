@@ -99,15 +99,11 @@ main > img{
     width: 100%;
 }
 
-
-
 main h1{
     font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.8em;
     color: var(--cor5);
-    margin-top: 0px;
-    padding-top: 15px;
 }
 
 main h2{
