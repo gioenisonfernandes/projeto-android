@@ -83,7 +83,7 @@ nav > a{
 nav >a:hover{
     background-color: var(--cor4);
     color: var(--cor6);
-    padding: 10px;
+    
 }
 
 main{
