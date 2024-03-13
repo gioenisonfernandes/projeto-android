@@ -52,9 +52,8 @@ header > h1{
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.349);  
 }
 
-header p{
-    font-family: var(--fonte-padrao);
-    font-weight: normal;
+header > p{
+    font-family: var(--fonte-padrao); 
     font-size: 1.2em;
     max-width: 600px;
     padding-right: 10px;
@@ -62,12 +61,11 @@ header p{
     padding-bottom: 50px;
     margin: auto;
     color: white ;
-    
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
 nav{
-    margin: 10px 10px 0px 10px;
+    
     padding: 10px;
     text-align: left;
 
