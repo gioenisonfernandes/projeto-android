@@ -127,13 +127,7 @@ main h2{
     padding-left: 15px;
 }
 
-.container{
-    text-align: center;
-    display: block;
-    margin: auto;
-    min-width: 320px;
-    max-width: 100%;
-}
+
 
 main p{
     text-indent: 30px;
