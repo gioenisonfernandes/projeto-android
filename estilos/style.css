@@ -123,6 +123,11 @@ main p{
     line-height: 2em;
 }
 
+main > picture{
+    width: 100%;
+    left: auto;
+}
+
 strong{
     color: var(--cor4);
 }
@@ -196,6 +201,7 @@ aside > p > a{
 footer{
     text-align: center;
     font-size: 0.8em;
+    padding: 5px;
     background-color: var(--cor6);
     color: white;
 }
